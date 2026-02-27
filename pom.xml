@@ -8,6 +8,12 @@
 	<build>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
+
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0</version>
+			</plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.13.0</version>
@@ -18,6 +24,7 @@
 		</plugins>
 	</build>
 	<dependencies>
+
 		<!-- Source:
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>
